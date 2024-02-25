@@ -1,5 +1,7 @@
 package com.resultsample.component.news.data
 
+import com.resultsample.common.core.DataLoss
+import com.resultsample.common.core.GenericError
 import com.resultsample.common.core.ResultState
 import com.resultsample.component.news.NewsRepo
 import com.resultsample.component.news.model.News

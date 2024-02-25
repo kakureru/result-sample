@@ -9,6 +9,6 @@ java {
     targetCompatibility = JavaVersion.VERSION_17
 }
 dependencies {
-    implementation(project(":common:base"))
+    implementation(project(":common:platform"))
 }
 

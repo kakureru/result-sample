@@ -45,7 +45,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":common:base"))
+    implementation(project(":common:platform"))
     implementation(project(":common:core"))
 
     implementation(libs.appcompat)

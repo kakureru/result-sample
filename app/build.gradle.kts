@@ -52,7 +52,7 @@ android {
 dependencies {
     implementation(project(":common:ui"))
     implementation(project(":common:core"))
-    implementation(project(":common:base"))
+    implementation(project(":common:platform"))
     implementation(project(":component:news"))
 
     implementation(libs.core.ktx)

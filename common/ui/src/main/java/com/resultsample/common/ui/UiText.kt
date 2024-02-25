@@ -1,4 +1,4 @@
-package com.resultsample.common.ui.ui_text
+package com.resultsample.common.ui
 
 import android.content.Context
 import androidx.annotation.StringRes

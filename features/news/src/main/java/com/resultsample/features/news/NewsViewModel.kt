@@ -5,7 +5,7 @@ import com.resultsample.common.core.onError
 import com.resultsample.common.core.onLoading
 import com.resultsample.common.core.onSuccess
 import com.resultsample.common.ui.uiTextError
-import com.resultsample.common.ui.ui_text.UiText
+import com.resultsample.common.ui.UiText
 import com.resultsample.component.news.model.NewsProhibited
 import com.resultsample.component.news.NewsRepo
 import com.resultsample.component.news.model.SomethingElse

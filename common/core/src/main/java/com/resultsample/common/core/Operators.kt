@@ -12,7 +12,7 @@ inline fun <T> ResultState<T>.onSuccess(action: (T) -> Unit): ResultState<T> {
     return this
 }
 
-inline fun <T> ResultState<T>.onError(action: (ResultState.Error.Type, data: T?) -> Unit): ResultState<T> {
-    if (this is ResultState.Error) action(type, data)
+inline fun <T> ResultState<T>.onError(action: (Exception, data: T?) -> Unit): ResultState<T> {
+    if (this is ResultState.Error) action(error, data)
     return this
 }

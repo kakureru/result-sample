@@ -6,7 +6,5 @@ sealed class ResultState<T>(open val data: T? = null) {
 
     class Success<T>(override val data: T) : ResultState<T>(data)
 
-    class Error<T>(val type: Type, data: T? = null): ResultState<T>(data) {
-        interface Type
-    }
+    class Error<T>(val error: Exception, data: T? = null): ResultState<T>(data)
 }

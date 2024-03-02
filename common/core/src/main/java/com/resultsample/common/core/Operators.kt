@@ -2,6 +2,8 @@ package com.resultsample.common.core
 
 fun <T> T.success() = ResultState.Success(this)
 
+fun <T> Exception.error() = ResultState.Error<T>(this)
+
 inline fun <T> ResultState<T>.onLoading(action: () -> Unit): ResultState<T> {
     if (this is ResultState.Loading) action()
     return this
